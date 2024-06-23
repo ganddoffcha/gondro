@@ -1,0 +1,9 @@
+colorScheme = "avocado"
+mainSections = ["posts"]
+
+[homepage]
+  showRecent = true
+
+[article]
+  showAuthorBottom = true
+
