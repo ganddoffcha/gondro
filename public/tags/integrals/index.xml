@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrals on GONDRO</title>
+    <link>https://gondro.xyz/tags/integrals/</link>
+    <description>Recent content in Integrals on GONDRO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Gordon Chan</copyright>
+    <lastBuildDate>Mon, 24 Jun 2024 19:54:40 +0800</lastBuildDate><atom:link href="https://gondro.xyz/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trigonometric Integrals</title>
+      <link>https://gondro.xyz/posts/trigonometric-integrals/</link>
+      <pubDate>Mon, 24 Jun 2024 19:54:40 +0800</pubDate>
+      
+      <guid>https://gondro.xyz/posts/trigonometric-integrals/</guid>
+      <description>Evaluating a few trigo integrals by defining sine and cosine to be complex function.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

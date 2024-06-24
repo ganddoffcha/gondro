@@ -7,3 +7,7 @@ mainSections = ["posts"]
 [article]
   showAuthorBottom = true
 
+[List]
+  showSummary = true
+  showCards = true
+

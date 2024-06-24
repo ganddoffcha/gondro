@@ -3,19 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/ideal-gas-law/</loc>
+    <loc>https://gondro.xyz/posts/trigonometric-integrals/</loc>
+    <lastmod>2024-06-24T19:54:40+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://gondro.xyz/posts/ideal-gas-law/</loc>
     <lastmod>2024-06-23T18:47:09+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://gondro.xyz/posts/</loc>
     <lastmod>2024-06-23T18:29:50+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/abtranspose/</loc>
+    <loc>https://gondro.xyz/posts/abtranspose/</loc>
     <lastmod>2024-06-23T18:23:07+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gondro.xyz/</loc>
     <lastmod>2024-06-23T18:22:21+08:00</lastmod>
   </url>
 </urlset>

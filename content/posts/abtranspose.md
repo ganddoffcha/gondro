@@ -1,6 +1,7 @@
 +++
 title = '$(\mathbf{AB})^{\mathrm T}=\mathbf B^{\mathrm T}\mathbf A^{\mathrm T}$'
 date = 2024-06-23T18:23:07+08:00
+summary = 'Deriving a propety of matrix tranpose.'
 +++
 
 ## Notation

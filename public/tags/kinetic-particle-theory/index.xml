@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kinetic Particle Theory on GONDRO</title>
-    <link>http://localhost:1313/tags/kinetic-particle-theory/</link>
+    <link>https://gondro.xyz/tags/kinetic-particle-theory/</link>
     <description>Recent content in Kinetic Particle Theory on GONDRO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Gordon Chan</copyright>
-    <lastBuildDate>Sun, 23 Jun 2024 18:47:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/kinetic-particle-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 18:47:09 +0800</lastBuildDate><atom:link href="https://gondro.xyz/tags/kinetic-particle-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ideal Gas Law</title>
-      <link>http://localhost:1313/posts/ideal-gas-law/</link>
+      <link>https://gondro.xyz/posts/ideal-gas-law/</link>
       <pubDate>Sun, 23 Jun 2024 18:47:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ideal-gas-law/</guid>
+      <guid>https://gondro.xyz/posts/ideal-gas-law/</guid>
       <description>Boyle&amp;rsquo;s law # At constant temperature and number of particles, $$p\propto V^{-1}$$ where $p$ is the pressure of a gas, and $V$ is the volume of it.
 Charles&amp;rsquo;s law # At constant pressure and number of particles, $$V\propto T$$ where $V$ is the volume of a gas, and $T$ is the temperature of it.
 Avogadro&amp;rsquo;s law # At constant pressure and temperature of particles, $$V\propto N$$ where $V$ is the pressure of a gas, and $N$ is the number of particles.</description>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Categories &middot; GONDRO</title>
-  <meta name="title" content="Categories &middot; GONDRO" />
+  <title>$\int_a^b\sqrt{1-x^2}\,\mathrm dx$ &middot; GONDRO</title>
+  <meta name="title" content="$\int_a^b\sqrt{1-x^2}\,\mathrm dx$ &middot; GONDRO" />
   
   <meta name="description" content="My awesome website" />
+  <meta name="keywords" content="integrals, " />
   
   
-  
-  <link rel="canonical" href="https://gondro.xyz/categories/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="GONDRO" />
+  <link rel="canonical" href="http://localhost:1313/posts/semicircle-integral/" />
   
   
   
@@ -62,20 +60,51 @@
   
   
   
-  <meta property="og:url" content="https://gondro.xyz/categories/">
+  <meta property="og:url" content="http://localhost:1313/posts/semicircle-integral/">
   <meta property="og:site_name" content="GONDRO">
-  <meta property="og:title" content="Categories">
-  <meta property="og:description" content="My awesome website">
+  <meta property="og:title" content="$\int_a^b\sqrt{1-x^2}\,\mathrm dx$">
+  <meta property="og:description" content=" Some Formulae # $$\begin{aligned} &amp;\cos2\theta&#43;i\sin2\theta\\ &amp;=e^{i(2\theta)}\\ &amp;=\left(e^{i\theta}\right)^2\\ &amp;=\left(\cos\theta&#43;i\sin\theta\right)^2\\ &amp;=(\cos\theta)^2&#43;2(\cos\theta)(i\sin\theta)&#43;(i\sin\theta)^2\\ &amp;=\cos^2\theta&#43;2i\sin\theta\cos\theta-\sin^2\theta\\ &amp;=(\cos^2\theta-\sin^2\theta)&#43;i(2\sin\theta\cos\theta)\\ &amp;\implies \begin{cases} \cos2\theta=\cos^2\theta-\sin^2\theta\\ \sin2\theta=2\sin\theta\cos\theta\\ \end{cases} \end{aligned}$$ $$\begin{aligned} \cos2\theta&amp;=\cos^2\theta-\sin^2\theta\\ \cos2\theta&amp;=\cos^2\theta-\left(1-\cos^2\theta\right)\\ \cos2\theta&amp;=\cos^2\theta-1&#43;\cos^2\theta\\ \cos2\theta&amp;=2\cos^2\theta-1\\ 2\cos^2\theta&amp;=\cos2\theta&#43;1\\ \cos^2\theta&amp;=\frac{\cos2\theta&#43;1}2\\ \end{aligned}$$ The Integral # $$\begin{aligned} &amp;\int_a^b\sqrt{1-x^2}\,\mathrm dx\\ &amp;=\int_\alpha^\beta\sqrt{1-(\sin\theta)^2}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\sqrt{\sin^2\theta&#43;\cos^2\theta-\sin^2\theta}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\sqrt{\cos^2\theta}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\cos\theta\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\cos^2\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\frac{\cos 2\theta&#43;1}2\,\mathrm d\theta\\ &amp;=\left.\frac{\frac12\sin2\theta&#43;\theta}2\right|_\alpha^\beta\\ &amp;=\frac12(\sin\theta\cos\theta&#43;\theta)|_\alpha^\beta\\ &amp;=\frac12(\sin\beta\cos\beta&#43;\beta-\sin\alpha\cos\alpha&#43;\alpha)\\ &amp;=\frac12\left(b\sqrt{1-b^2}&#43;\sin^{-1}b-a\sqrt{1-a^2}&#43;\sin^{-1}a\right)\\ \end{aligned}$$ ">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-23T20:08:24+08:00">
+    <meta property="article:modified_time" content="2024-06-23T20:08:24+08:00">
+    <meta property="article:tag" content="Integrals">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Categories">
-  <meta name="twitter:description" content="My awesome website">
+  <meta name="twitter:title" content="$\int_a^b\sqrt{1-x^2}\,\mathrm dx$">
+  <meta name="twitter:description" content=" Some Formulae # $$\begin{aligned} &amp;\cos2\theta&#43;i\sin2\theta\\ &amp;=e^{i(2\theta)}\\ &amp;=\left(e^{i\theta}\right)^2\\ &amp;=\left(\cos\theta&#43;i\sin\theta\right)^2\\ &amp;=(\cos\theta)^2&#43;2(\cos\theta)(i\sin\theta)&#43;(i\sin\theta)^2\\ &amp;=\cos^2\theta&#43;2i\sin\theta\cos\theta-\sin^2\theta\\ &amp;=(\cos^2\theta-\sin^2\theta)&#43;i(2\sin\theta\cos\theta)\\ &amp;\implies \begin{cases} \cos2\theta=\cos^2\theta-\sin^2\theta\\ \sin2\theta=2\sin\theta\cos\theta\\ \end{cases} \end{aligned}$$ $$\begin{aligned} \cos2\theta&amp;=\cos^2\theta-\sin^2\theta\\ \cos2\theta&amp;=\cos^2\theta-\left(1-\cos^2\theta\right)\\ \cos2\theta&amp;=\cos^2\theta-1&#43;\cos^2\theta\\ \cos2\theta&amp;=2\cos^2\theta-1\\ 2\cos^2\theta&amp;=\cos2\theta&#43;1\\ \cos^2\theta&amp;=\frac{\cos2\theta&#43;1}2\\ \end{aligned}$$ The Integral # $$\begin{aligned} &amp;\int_a^b\sqrt{1-x^2}\,\mathrm dx\\ &amp;=\int_\alpha^\beta\sqrt{1-(\sin\theta)^2}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\sqrt{\sin^2\theta&#43;\cos^2\theta-\sin^2\theta}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\sqrt{\cos^2\theta}\cdot\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\cos\theta\cos\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\cos^2\theta\,\mathrm d\theta\\ &amp;=\int_\alpha^\beta\frac{\cos 2\theta&#43;1}2\,\mathrm d\theta\\ &amp;=\left.\frac{\frac12\sin2\theta&#43;\theta}2\right|_\alpha^\beta\\ &amp;=\frac12(\sin\theta\cos\theta&#43;\theta)|_\alpha^\beta\\ &amp;=\frac12(\sin\beta\cos\beta&#43;\beta-\sin\alpha\cos\alpha&#43;\alpha)\\ &amp;=\frac12\left(b\sqrt{1-b^2}&#43;\sin^{-1}b-a\sqrt{1-a^2}&#43;\sin^{-1}a\right)\\ \end{aligned}$$ ">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "$\\int_a^b\\sqrt{1-x^2}\\,\\mathrm dx$",
+    "headline": "$\\int_a^b\\sqrt{1-x^2}\\,\\mathrm dx$",
+    
+    "abstract": " Some Formulae # $$\\begin{aligned} \u0026\\cos2\\theta\u002bi\\sin2\\theta\\\\ \u0026=e^{i(2\\theta)}\\\\ \u0026=\\left(e^{i\\theta}\\right)^2\\\\ \u0026=\\left(\\cos\\theta\u002bi\\sin\\theta\\right)^2\\\\ \u0026=(\\cos\\theta)^2\u002b2(\\cos\\theta)(i\\sin\\theta)\u002b(i\\sin\\theta)^2\\\\ \u0026=\\cos^2\\theta\u002b2i\\sin\\theta\\cos\\theta-\\sin^2\\theta\\\\ \u0026=(\\cos^2\\theta-\\sin^2\\theta)\u002bi(2\\sin\\theta\\cos\\theta)\\\\ \u0026\\implies \\begin{cases} \\cos2\\theta=\\cos^2\\theta-\\sin^2\\theta\\\\ \\sin2\\theta=2\\sin\\theta\\cos\\theta\\\\ \\end{cases} \\end{aligned}$$ $$\\begin{aligned} \\cos2\\theta\u0026=\\cos^2\\theta-\\sin^2\\theta\\\\ \\cos2\\theta\u0026=\\cos^2\\theta-\\left(1-\\cos^2\\theta\\right)\\\\ \\cos2\\theta\u0026=\\cos^2\\theta-1\u002b\\cos^2\\theta\\\\ \\cos2\\theta\u0026=2\\cos^2\\theta-1\\\\ 2\\cos^2\\theta\u0026=\\cos2\\theta\u002b1\\\\ \\cos^2\\theta\u0026=\\frac{\\cos2\\theta\u002b1}2\\\\ \\end{aligned}$$ The Integral # $$\\begin{aligned} \u0026\\int_a^b\\sqrt{1-x^2}\\,\\mathrm dx\\\\ \u0026=\\int_\\alpha^\\beta\\sqrt{1-(\\sin\\theta)^2}\\cdot\\cos\\theta\\,\\mathrm d\\theta\\\\ \u0026=\\int_\\alpha^\\beta\\sqrt{\\sin^2\\theta\u002b\\cos^2\\theta-\\sin^2\\theta}\\cdot\\cos\\theta\\,\\mathrm d\\theta\\\\ \u0026=\\int_\\alpha^\\beta\\sqrt{\\cos^2\\theta}\\cdot\\cos\\theta\\,\\mathrm d\\theta\\\\ \u0026=\\int_\\alpha^\\beta\\cos\\theta\\cos\\theta\\,\\mathrm d\\theta\\\\ \u0026=\\int_\\alpha^\\beta\\cos^2\\theta\\,\\mathrm d\\theta\\\\ \u0026=\\int_\\alpha^\\beta\\frac{\\cos 2\\theta\u002b1}2\\,\\mathrm d\\theta\\\\ \u0026=\\left.\\frac{\\frac12\\sin2\\theta\u002b\\theta}2\\right|_\\alpha^\\beta\\\\ \u0026=\\frac12(\\sin\\theta\\cos\\theta\u002b\\theta)|_\\alpha^\\beta\\\\ \u0026=\\frac12(\\sin\\beta\\cos\\beta\u002b\\beta-\\sin\\alpha\\cos\\alpha\u002b\\alpha)\\\\ \u0026=\\frac12\\left(b\\sqrt{1-b^2}\u002b\\sin^{-1}b-a\\sqrt{1-a^2}\u002b\\sin^{-1}a\\right)\\\\ \\end{aligned}$$ ",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/posts\/semicircle-integral\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Gordon Chan"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-23T20:08:24\u002b08:00",
+    "datePublished": "2024-06-23T20:08:24\u002b08:00",
+    
+    "dateModified": "2024-06-23T20:08:24\u002b08:00",
+    
+    "keywords": ["integrals"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "49"
+  }]
+  </script>
+
 
   
   
@@ -353,21 +382,41 @@
       
 
 
- 
+<article>
+  
 
-  <header>
+  <header id="single_header" class="mt-5 max-w-prose">
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Categories</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      $\int_a^b\sqrt{1-x^2}\,\mathrm dx$
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
 
 
 
 
+  
+  
 
 
 
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
 
 
 
@@ -384,32 +433,239 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
+  <time datetime="2024-06-23 20:08:24 &#43;0800 &#43;08">23 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>49 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
 </div>
 
 
+
+
+
+
+
     </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
   </header>
   
-  <script>
-    var oid = "views_taxonomy_categories"
-    var oid_likes = "likes_taxonomy_categories"
-  </script>
-  
-  
-  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  
-
-  
-
-  <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-  </section>
+    
 
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+<h2 class="relative group">Some Formulae 
+    <div id="some-formulae" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#some-formulae" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+$$\begin{aligned}
+    &\cos2\theta+i\sin2\theta\\
+    &=e^{i(2\theta)}\\
+    &=\left(e^{i\theta}\right)^2\\
+    &=\left(\cos\theta+i\sin\theta\right)^2\\
+    &=(\cos\theta)^2+2(\cos\theta)(i\sin\theta)+(i\sin\theta)^2\\
+    &=\cos^2\theta+2i\sin\theta\cos\theta-\sin^2\theta\\
+    &=(\cos^2\theta-\sin^2\theta)+i(2\sin\theta\cos\theta)\\
+    &\implies
+\begin{cases}
+    \cos2\theta=\cos^2\theta-\sin^2\theta\\
+    \sin2\theta=2\sin\theta\cos\theta\\
+\end{cases}
+\end{aligned}$$
+<p> </p>
+$$\begin{aligned}
+    \cos2\theta&=\cos^2\theta-\sin^2\theta\\
+    \cos2\theta&=\cos^2\theta-\left(1-\cos^2\theta\right)\\
+    \cos2\theta&=\cos^2\theta-1+\cos^2\theta\\
+    \cos2\theta&=2\cos^2\theta-1\\
+    2\cos^2\theta&=\cos2\theta+1\\
+    \cos^2\theta&=\frac{\cos2\theta+1}2\\
+\end{aligned}$$
+
+
+<h2 class="relative group">The Integral 
+    <div id="the-integral" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-integral" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+$$\begin{aligned}
+    &\int_a^b\sqrt{1-x^2}\,\mathrm dx\\
+    &=\int_\alpha^\beta\sqrt{1-(\sin\theta)^2}\cdot\cos\theta\,\mathrm d\theta\\
+    &=\int_\alpha^\beta\sqrt{\sin^2\theta+\cos^2\theta-\sin^2\theta}\cdot\cos\theta\,\mathrm d\theta\\
+    &=\int_\alpha^\beta\sqrt{\cos^2\theta}\cdot\cos\theta\,\mathrm d\theta\\
+    &=\int_\alpha^\beta\cos\theta\cos\theta\,\mathrm d\theta\\
+    &=\int_\alpha^\beta\cos^2\theta\,\mathrm d\theta\\
+    &=\int_\alpha^\beta\frac{\cos 2\theta+1}2\,\mathrm d\theta\\
+    &=\left.\frac{\frac12\sin2\theta+\theta}2\right|_\alpha^\beta\\
+    &=\frac12(\sin\theta\cos\theta+\theta)|_\alpha^\beta\\
+    &=\frac12(\sin\beta\cos\beta+\beta-\sin\alpha\cos\alpha+\alpha)\\
+    &=\frac12\left(b\sqrt{1-b^2}+\sin^{-1}b-a\sqrt{1-a^2}+\sin^{-1}a\right)\\
+\end{aligned}$$
+
+        </div>
+        
+        
+
+          
+            
+            
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Gordon Chan
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">I love maths.</div>
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+          
+
+          
+
+          
+          <div class="mb-10"></div>
+          
+
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\/semicircle-integral.md"
+        var oid_likes = "likes_posts\/semicircle-integral.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/posts/ideal-gas-law/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Ideal Gas Law</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-06-23 18:47:09 &#43;0800 &#43;08">23 June 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/trigonometric-integrals/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Trigonometric Integrals</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-06-24 19:54:40 &#43;0800 &#43;08">24 June 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
   
 
 
+    
+  </footer>
+</article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
@@ -470,7 +726,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://gondro.xyz/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
